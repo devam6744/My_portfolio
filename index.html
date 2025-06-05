@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Devam Mandli Portfolio</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Devam Mandli Portfolio</h1>
+  </header>
+  <main>
+    <div class="img">
+      <img src="IMG_20250416_151950_264.webp" alt="">
+    </div>
+    <div class="menu">
+      <button onclick="toggleSection('about')">About Me</button>
+      <div id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>Hi, I’m <strong>Devam Mandli</strong>, a passionate frontend developer and first-year BCA student. I enjoy transforming ideas into interactive and visually engaging web experiences. I'm always exploring new skills and technologies to improve my craft.</p>
+      </div>
+
+      <button onclick="toggleSection('projects')">Projects</button>
+      <div id="projects" class="content-section">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="project-card">
+            <h3>Sneaker Store</h3>
+            <p>Frontend multi-page shoe store website with gender-based sections.</p>
+            <a href="https://devam6744.github.io/Frontend_projects/" target="_blank">View Live</a>
+          </div>
+          <div class="project-card">
+            <h3>Stone Paper Scissors</h3>
+            <p>Simple JS game against the computer with score tracking.</p>
+            <a href="https://devam6744.github.io/JS_mini_games/" target="_blank">View Live</a>
+          </div>
+          <div class="project-card">
+            <h3>Weather App</h3>
+            <p>API-powered app showing real-time weather by city.</p>
+            <a href="https://devam6744.github.io/weather_app_using_api-/">View Live</a>
+          </div>
+        </div>
+      </div>
+
+      <button onclick="toggleSection('skills')">Skills</button>
+      <div id="skills" class="content-section">
+        <h2>Skills I Know</h2>
+        <div class="skills-grid">
+          <div class="skill"><img src="icons8-html5-48.png"><span class="skill-name">HTML</span></div>
+          <div class="skill"><img src="icons8-css3-48.png"><span class="skill-name">CSS</span></div>
+          <div class="skill"><img src="icons8-javascript-48.png"><span class="skill-name">JavaScript</span></div>
+          <div class="skill"><img src="icons8-c-programming-48.png"><span class="skill-name">C Language</span></div>
+        </div>
+        <h2 style="margin-top:30px;">Skills I'm Learning</h2>
+        <div class="skills-grid">
+          <div class="skill"><img src="icons8-java-94.png"><span class="skill-name">Java</span></div>
+          <div class="skill"><img src="icons8-python-48.png"><span class="skill-name">Python</span></div>
+          <div class="skill"><img src="icons8-react-24.png"><span class="skill-name">React</span></div>
+        </div>
+      </div>
+
+      <button onclick="toggleSection('contact')">Contact</button>
+      <div id="contact" class="content-section">
+        <h2>Contact</h2>
+        <div class="contact-icons">
+          <div><img src="icons8-github-logo-30.png"><p><a href="https://github.com/devam6744" style="text-decoration: none;">Github</a></p></div>
+          <div><img src="icons8-gmail-50.png"><p>mandlidevam9@gmail.com</p></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Devam Mandli. All rights reserved.
+  </footer>
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>
